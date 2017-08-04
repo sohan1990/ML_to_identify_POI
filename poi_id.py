@@ -1,10 +1,5 @@
 ### IMPORTING ALL THE LIBRARIES AT ONE PLACE
 
-#!/usr/bin/python
-
-#import sys
-#sys.path.append("../tools/")
-
 from feature_format import featureFormat, targetFeatureSplit
 from tester import dump_classifier_and_data
 from sklearn.model_selection import train_test_split
